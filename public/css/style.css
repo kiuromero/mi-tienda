@@ -1,0 +1,68 @@
+.bg-light {
+    background-color:#0caf2b!important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: white; 
+    text-decoration: none;
+    background-color: #ffc72f;
+}
+.nav-link:focus, .nav-link:hover {
+    color: white; 
+    text-decoration: none;
+    background-color: #ffc72f;
+}
+.dropdown-menu {
+  background-color: #0caf2b;
+}
+.btn {
+    background-color: #ffc72f;
+}
+.btn-outline-success {
+    color: white;
+    border-color: white;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #0caf2b;
+    border-color: white;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ffc72f;
+    border-color: #ffc72f ;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0caf2b;
+    border-color: #0caf2b;
+}
+a{
+  color:white !important;
+}
+@media (max-width: 768px) {
+#mobil{
+  font-size: 12px;
+  width: 200px;
+  margin:auto;
+  margin-top:20px;
+}
+}
+@media (min-width: 768px) {
+.card{
+  width: 18rem;
+  margin:auto;
+  margin-top:20px;
+}
+}
+
+.carousel-item{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height:70vh;
+}
+#map {
+	height: 500px;
+    width: 100%;
+    border:solid;
+}
