@@ -1,0 +1,8 @@
+#map{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 380px;
+    position: relative;
+}

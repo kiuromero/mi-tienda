@@ -7,9 +7,8 @@ use App\productos;
 class inicioController extends Controller
 {
     public function getAll(){
-        $tasks = productos::all();
-    return view('inicio')->with('productos', $tasks);
-        
-}
+    $productos = productos::all();  
+    return view('inicio')->with('prod', $productos);
+    }
 
 }
